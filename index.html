@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepak Vlog Page</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/photo.jpg');
+}
+
+.left{
+    left: 30px;
+    top: 20px;
+    display: inline-block;
+    
+    position: absolute;
+}
+.left img{
+    width: 123px;
+}
+
+.middle{
+    display: block;
+    top:20px;
+    width: 33%;
+    margin: 12px auto;
+  
+
+}
+.right{
+    right: 30px;
+    top: 20px;
+    display: inline-block;
+    position: absolute;
+    
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    color: white;
+    display: inline-block;
+}
+.navbar a{
+    padding: 30px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+</style>
+<body>
+    <header class="header">
+            
+        <div class="left">
+                        <img src="img/lg.jpg" alt="">
+                        <form action="php.backed">
+
+                        
+                        
+                        <div>NAME: <input type="text">
+                        </div>
+                       <div>AGE: <input type="number">
+                    </div>
+                    <div>
+                        <input type="submit">
+                    </div>
+                </form>
+                       
+        </div>
+
+         <div class="middle">
+
+                            <ul class="navbar">
+                                <li><a href="#" class="active">HOME</a></li>
+                                <li><a href="#">ABOUT US</a></li>
+                                <li><a href="#">GALLERY</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                            </ul>
+         </div>
+        
+         <div class="right">
+                            <button class="btn">call us now</button><button class="btn">email us</button>
+
+         </div>
+    </header>
+</body>
+</html>
